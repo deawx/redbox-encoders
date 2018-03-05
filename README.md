@@ -4,7 +4,8 @@
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Contact%20author)](https://twitter.com/intent/tweet?text=@mastjohnny)
 
 # redbox-encoders
-TEST
+DONT INSTALL THIS, THIS PACKAGE IS WORK IN PROGRESS.
+
 
 
 
