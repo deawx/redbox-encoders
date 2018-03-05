@@ -10,6 +10,7 @@ php:
 env:
   - COMPOSER_OPTS=""
   - COMPOSER_OPTS="--prefer-lowest"
+  - COMPOSER_OPTS="--ignore-platform-reqs"
 
 before_install:
   - php /home/travis/.phpenv/versions/hhvm/bin/composer self-update
@@ -19,7 +20,7 @@ before_script:
 
 script:
   - if [ "$TRAVIS_PHP_VERSION" == 7 ]; then vendor/bin/phpunit; fi
-  - if [ "$TRAVIS_PHP_VERSION" != 7 ]; then vendor/bin/phpunit --coverage-text --ignore-platform-reqs --coverage-clover=coverage.clover; fi
+  - if [ "$TRAVIS_PHP_VERSION" != 7 ]; then vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover; fi
 
 after_script:
   - wget https://scrutinizer-ci.com/ocular.phar
