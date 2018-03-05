@@ -7,6 +7,12 @@
 DONT INSTALL THIS, THIS PACKAGE IS WORK IN PROGRESS.
 
 
+## Requirements
+
+The following versions of PHP are supported by this version.
+
++ PHP 7.0
++ PHP 7.1
 
 
 ## Author
