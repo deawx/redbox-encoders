@@ -3,7 +3,7 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/johnnymast/redbox-encoders/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/johnnymast/redbox-encoders/?branch=master)
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Contact%20author)](https://twitter.com/intent/tweet?text=@mastjohnny)
 
-# redbox-encodersa
+# redbox-encoders
 TEST
 
 
