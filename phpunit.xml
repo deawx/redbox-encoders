@@ -10,7 +10,7 @@
          stopOnFailure="false"
          syntaxCheck="false">
     <testsuites>
-        <testsuite name="Redbox Hydrator test suite">
+        <testsuite name="Redbox Encoders test suite">
             <directory suffix=".php">./tests/</directory>
         </testsuite>
     </testsuites>
