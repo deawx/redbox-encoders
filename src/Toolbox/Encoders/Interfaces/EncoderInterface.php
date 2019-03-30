@@ -1,6 +1,6 @@
 <?php
 
-namespace Redbox\ToolBox\Encoders\Interfaces;
+namespace Redbox\Toolbox\Encoders\Interfaces;
 
 interface EncoderInterface
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Redbox\ToolBox\Encoders;
+namespace Redbox\Toolbox\Encoders;
 
-use Redbox\ToolBox\Encoders\Interfaces\EncoderInterface;
+use Redbox\Toolbox\Encoders\Interfaces\EncoderInterface;
 
-class MorseCode implements EncoderInterface
+class Morse implements EncoderInterface
 {
     /**
      * The translation table we use to encode or

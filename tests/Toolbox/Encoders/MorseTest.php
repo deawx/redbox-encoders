@@ -1,17 +1,17 @@
 <?php
-namespace Redbox\ToolBox\Encoders\Tests;
+namespace Redbox\Toolbox\Encoders\Tests;
 
-use Redbox\ToolBox\Encoders\MorseCode;
+use Redbox\Toolbox\Encoders\Morse;
 use PHPUnit\Framework\TestCase;
 
-class MorseCodeTest extends TestCase
+class MorseTest extends TestCase
 {
     /**
      * Test 'sos' would encode to '... --- ...';
      */
     function test_it_encodes_a_string()
     {
-        $morse = new MorseCode();
+        $morse = new Morse();
         $actual = $morse->encode('sos');
         $expected = '... --- ...';
         $this->assertEquals($expected, $actual);
@@ -21,7 +21,7 @@ class MorseCodeTest extends TestCase
      */
     function test_it_decodes_a_string()
     {
-        $morse = new MorseCode();
+        $morse = new Morse();
         $actual = $morse->decode('... --- ...');
         $expected = 'sos';
         $this->assertEquals($expected, $actual);
@@ -32,7 +32,7 @@ class MorseCodeTest extends TestCase
      */
     function test_it_encodes_if_the_constructor_is_used()
     {
-        $morse = new MorseCode('sos');
+        $morse = new Morse('sos');
         $actual = $morse->encode();
         $expected = '... --- ...';
         $this->assertEquals($expected, $actual);
@@ -43,7 +43,7 @@ class MorseCodeTest extends TestCase
      */
     function test_it_decodes_if_the_constructor_is_used()
     {
-        $morse = new MorseCode('... --- ...');
+        $morse = new Morse('... --- ...');
         $actual = $morse->decode();
         $expected = 'sos';
         $this->assertEquals($expected, $actual);
