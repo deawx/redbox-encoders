@@ -11,8 +11,7 @@ DONT INSTALL THIS, THIS PACKAGE IS WORK IN PROGRESS.
 
 The following versions of PHP are supported by this version.
 
-+ PHP 7.0
-+ PHP 7.1
++ PHP => 7.1
 
 
 ## Author
@@ -23,7 +22,7 @@ This package is created and maintained by [Johnny Mast](https://github.com/johnn
 
 The MIT License (MIT)
 
-Copyright (c) 2017 Johnny Mast
+Copyright (c) 2019 Johnny Mast
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
